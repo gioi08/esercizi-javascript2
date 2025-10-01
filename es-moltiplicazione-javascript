@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1,0">
+        <title>moltiplicazione</title>
+    </head>
+    <body>
+        <p>Verrà fatta la moltiplicazione tra due numeri</p>
+        <script>
+            function moltiplica(a,b){
+                return a*b;
+            }
+            var moltiplicazione=moltiplica(3,5);
+            console.log(moltiplica(3,5));
+            function parolaMaiuscola(parola){
+                var nuovaParola=parola.toUpperCase();
+                return nuovaParola;
+            }
+            console.log(parolaMaiuscola("ciao"));
+        </script>
+    </body>
+</html>
